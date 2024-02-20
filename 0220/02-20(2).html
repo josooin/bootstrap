@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>04_부트스트랩(이미지관련)</title>
+
+  <!-- 부트스트랩 CSS 연결하기 -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <!-- cdn방식으로 연결하기 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <h2>04_부트스트랩(이미지관련)</h2>
+
+  <img src="./images/photo (1).webp" alt="" class="rounded">
+
+  <h3>1. 모서리 둥글게 class ='rounded'</h3>
+  <img src="./images/photo (1).webp" alt="" class="rounded">
+
+  <h3>2. 모서리 둥글게 하여 원모양으로 class ="rounded-circle"</h3>
+  <img src="./images/photo (1).webp" alt="" class="rounded-circle">
+
+  <h3>3. 이미지를 썸네일 이미지처럼 보이게</h3>
+  <img src="./images/photo (2).webp" alt="" class="img-thumbnail">
+  <img src="./images/photo (2).webp" alt="" class="img-thumbnail">
+  <img src="./images/photo (2).webp" alt="" class="img-thumbnail">
+  <img src="./images/photo (2).webp" alt="" class="img-thumbnail">
+
+  <p>img-thumbnail : border, padding, border-radious속성값 사용</p>
+
+  <h3>4. 이미지와 문자를 사용하여 콘텐츠 제작시 figcation, figure</h3>
+  <figure>
+    <img src="./images/photo (3).webp" alt="" class="img-fluid">
+    <figcaption>이미지 설명문구</figcaption>
+  </figure>
+
+  <p>이미지를 반응형으로 동작하는 클래스 class="img-fluid" 적용시 width:100%, height:auto; 속성이 자동으로 들어감.</p>
+  <p>부모의 크기가 변하면 이미지 크기도 같이 반응.</p>
+
+
+</body>
+
+</html>
